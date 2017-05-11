@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
+
 import Main from '@/components/Main/Main'
 import Person from '@/components/Personal/Person'
 import Community from '@/components/Community/Community'
@@ -9,11 +9,6 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'Hello',
-      component: Hello
-    },
     {
       path: '/main',
       name: 'Main',
